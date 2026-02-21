@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+body{
+    background: #EFF0F3;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 20px;
+    background: #EFF0F3;
+}
+.name{
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.name span{
+    color: var(--Blue, #6246EA);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav a{
+    width: 95px;
+    height: 25px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--Black, #2B2C34);
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.one{
+    width: 13.251px;
+    height: 13.252px;
+    fill: var(--Black, #2B2C34);
+}
+.coffee{
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Blue, #6246EA);
+    color: #FFFFFE;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.too{
+    width: 20px;
+    height: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+.text{
+    max-width: 500px;
+}
+.text h1{
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.text p{
+    color: var(--Dark-Grey, #9A9494);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.subscribe{
+    display: flex;
+}
+.subscribe input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--White, #FFFFFE);
+    color: var(--Grey, #C0C0C0);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.subscribe button{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Blue, #6246EA);
+    color: var(--White, #FFFFFE);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+.image{
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+}
+
