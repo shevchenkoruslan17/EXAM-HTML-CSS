@@ -6,6 +6,8 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 body{
+    width: 1440px;
+    height: 4792px;
     background: #EFF0F3;
 }
 header{
@@ -128,4 +130,43 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-
+/*---------Category----*/
+.category{
+    height: 100%;
+    padding: 80px;
+    background: #f5f5f5;
+}
+.top-category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.top-category a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    gap: 37px;
+    border: 8px;
+}
+.card{
+    width: 220px;
+    height: 280px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div img{
+    border-radius: 8px;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
