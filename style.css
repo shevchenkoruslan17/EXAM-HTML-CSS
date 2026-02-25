@@ -8,7 +8,7 @@ header{
     height: 86px;
     display: flex;
     justify-content: space-between;
-    background: #EFF0F3;
+    background: #fdfcfc;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 .logo{
@@ -55,20 +55,19 @@ nav a {
     text-transform: capitalize;
 }
 .main{
-    display: flex;
+    height: 814px;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px;
+    background: #EFF0F3;
 }
 .main-text{
-    height: 345px
+    flex-direction: column;
+    height: 617px;
+    gap: 30px;
     width: 664px;
     max-width: 500px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-    flex-shrink: 0;
 }
 .main-text h1{
     width: 617px;
@@ -91,10 +90,10 @@ nav a {
 }
 .subscribe{
     display: flex;
+    gap:30px 20px;
 }
 .subscribe input{
     padding: 21px 200px 21px 25px;
-    gap: 10px;
     border: 1px solid #ddd;
     outline: none;
     border-radius: 8px;
@@ -108,19 +107,18 @@ nav a {
     cursor: pointer;
     height: 67px;
     padding: 20px 23px 19px 23px;
-    gap: 10px;
     border-radius: 8px;
     background: #6246EA;
     color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;
-
-
-
 }
 .main-image{
-    width: 400px;
-
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
 }
 /*---------Category----*/
 .category{
